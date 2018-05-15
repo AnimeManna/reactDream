@@ -1,0 +1,7 @@
+@import '../component/headline/headline.css';
+@import '../component/home/home.css';
+
+
+body{
+    margin:0px;
+}
