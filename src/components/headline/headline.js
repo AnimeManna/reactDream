@@ -11,9 +11,11 @@ class Headline extends React.Component{
 
     render(){
         return(
-            <div className="headline">
-                <div className = "squareLogo"/>
-                <div className="logo-burger" onClick={() => this.setState({isShowedSidebar : !this.state.isShowedSidebar})} />
+            <div className="header">
+                <div className="headline">
+                 <div className = "squareLogo"/>
+                 <div className="logo-burger" onClick={() => this.setState({isShowedSidebar : !this.state.isShowedSidebar})} />
+                </div>
                 {this.state.isShowedSidebar ? <Sidebar /> : null}
             </div>
         )

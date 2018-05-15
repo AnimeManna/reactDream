@@ -6,7 +6,7 @@ import Page from '../page/page.js'
 export default class App extends React.Component{
     render(){
         return(
-            <div>
+            <div className="app">
                 <Headline/>
                 <Page/>
             </div>

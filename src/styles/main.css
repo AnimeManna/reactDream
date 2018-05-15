@@ -1,5 +1,8 @@
 @import '../components/headline/headline.css';
 @import '../components/home/home.css';
+@import '../components/sidebar/sidebar.css';
+@import '../components/app/app.css';
+@import '../components/page/page.css';
 
 
 body{

@@ -1,5 +1,5 @@
 .headline{
-    width:100%;
+    min-width:1300px;
     height:60px;
     background-color:#ffeb36;
     display: flex;
