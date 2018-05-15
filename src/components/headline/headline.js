@@ -5,7 +5,7 @@ class Headline extends React.Component{
     constructor(){
         super()
         this.state = {
-            showedBlock:false
+            isShowedSidebar:false
         }
     }
 
@@ -13,8 +13,8 @@ class Headline extends React.Component{
         return(
             <div className="headline">
                 <div className = "squareLogo"/>
-                <div className="logo-burger" onClick={() => this.setState({showedBlock: true})} />
-                {this.state.showedBlock ? <Sidebar /> : null}
+                <div className="logo-burger" onClick={() => this.setState({isShowedSidebar : !this.state.isShowedSidebar})} />
+                {this.state.isShowedSidebar ? <Sidebar /> : null}
             </div>
         )
     }

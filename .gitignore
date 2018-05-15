@@ -2,6 +2,7 @@ git remote add origin https://github.com/AnimeManna/reactDream.git# See https://
 
 # dependencies
 /node_modules
+/.idea
 
 # testing
 /coverage

@@ -2,14 +2,12 @@ import './styles/main.css'
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Page from './component/page/page.js'
-import Headline from './component/headline/headline.js'
+import App from './components/app/app.js'
 
 
 ReactDOM.render(
     <div>
-        <Headline/>
-        <Page/>
+        <App/>
     </div>,
     document.getElementById('app')
 );
