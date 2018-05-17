@@ -1,13 +1,12 @@
 import React from 'react'
 
-class Headline extends React.Component{;
+class Header extends React.Component{;
 
     render(){
 
         return(
             <div className="header">
                 <div className="headline">
-                 <div className = "squareLogo"/>
                  <div className="logo-burger" onClick = {()=> {
                      let newState = !this.props.status;
                      this.props.changeParentState(newState);
@@ -18,4 +17,4 @@ class Headline extends React.Component{;
     }
 }
 
-export default Headline
+export default Header

@@ -1,5 +1,5 @@
 import React from 'react'
-import Headline from '../headline/headline.js'
+import Header from '../headline/header.js'
 import Page from '../page/page.js'
 
 export default class App extends React.Component{
@@ -20,7 +20,7 @@ export default class App extends React.Component{
     render(){
         return(
             <div className="app">
-                <Headline changeParentState = {(status)=> {
+                <Header changeParentState = {(status)=> {
                     this.changeState(status)
                 }} status = {
                     this.state.isShowedSidebar

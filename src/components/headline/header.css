@@ -5,15 +5,6 @@
     display: flex;
     justify-content: flex-start;
 }
-.squareLogo{
-    position:absolute;
-    top:-25px;
-    left:-25px;
-    width:50px;
-    height:50px;
-    background-color:black;
-    transform: rotate(45deg);
-}
 .logo-burger{
     width:20px;
     height:20px;
